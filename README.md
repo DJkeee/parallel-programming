@@ -3,7 +3,7 @@
 Много-модульный Kotlin/JVM проект с Compose Desktop UI, демонстрирующий типобезопасный DSL для построения дерева вычислений и его исполнения синхронно и асинхронно через собственный ThreadLoop и Publisher/Subscriber.
 
 ## Стек
-- Kotlin 1.9.22, JVM toolchain 17
+- Kotlin 1.9.22, JVM toolchain 21 (с таргетом JVM 17 для байткода)
 - Compose Desktop UI
 - DI: Koin 3.5
 - Пользовательский ThreadLoop + WorkerPool без coroutines
